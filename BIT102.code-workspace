@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../BIT102"
+		},
+		{
+			"path": "../../Documents/BIT02 web"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "bit102_assignment"
+	}
+}

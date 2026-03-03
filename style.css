@@ -1,0 +1,52 @@
+/* 全局字体优化 */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* 导航栏品牌加粗 */
+.navbar-brand {
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+/* 卡片悬停效果：鼠标放上去会轻轻浮起 */
+.hover-shadow {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover-shadow:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+/* 英雄区域背景微调 */
+.bg-light {
+    background-color: #eef2f5 !important;
+}
+
+/* 页脚固定在底部 (如果内容少时) */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main {
+    flex: 1;
+}
+/* Fade In Animation for Filtering */
+.fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Active Button Style Override */
+.filter-btn.active {
+    background-color: #0d6efd !important; /* Bootstrap Primary Color */
+    color: white !important;
+    border-color: #0d6efd !important;
+}
